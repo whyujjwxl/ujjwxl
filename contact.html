@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkAuth()">
+
+    <nav>
+        <a href="home.html" class="logo">MY PORTFOLIO</a>
+        <ul>
+            <li><a href="home.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact/Emails</a></li>
+            <li><a href="#" onclick="logout()">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Get in Touch</h1>
+        <p>Send me an email for inquiries.</p>
+        
+        <form action="https://formsubmit.co/info@ujjwxl.in" method="POST">
+            <input type="text" name="name" placeholder="Client Name" required>
+            <input type="email" name="email" placeholder="Client Email" required>
+            <textarea name="message" rows="5" placeholder="Project Details" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <br>
+        <h3>Direct Emails</h3>
+        <p>Business: business@mydomain.com</p>
+        <p>Personal: me@mydomain.com</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

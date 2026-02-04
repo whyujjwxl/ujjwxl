@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkAuth()">
+
+    <nav>
+        <a href="home.html" class="logo">MY PORTFOLIO</a>
+        <ul>
+            <li><a href="home.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact/Emails</a></li>
+            <li><a href="#" onclick="logout()">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Selected Projects</h1>
+        <div class="gallery">
+            <div class="project-card">
+                <div class="placeholder-img">Image 1</div>
+                <h3>Brand Identity</h3>
+                <p>Logo design for TechCorp.</p>
+            </div>
+            <div class="project-card">
+                <div class="placeholder-img">Image 2</div>
+                <h3>Editorial Layout</h3>
+                <p>Magazine spread design.</p>
+            </div>
+             <div class="project-card">
+                <div class="placeholder-img">Image 3</div>
+                <h3>Web Mockup</h3>
+                <p>UI/UX Design for App.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
